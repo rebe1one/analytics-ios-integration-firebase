@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   s.dependency 'Analytics', '~> 3.2'
-  s.dependency 'Firebase/Core', '~> 6.2'
-  s.dependency 'FirebaseAnalytics','~> 6.1'
+  s.dependency 'FirebaseCore', '~> 6.6'
+  s.dependency 'FirebaseAnalytics','~> 6.4'
 
   s.subspec 'Core' do |core|
     #For users who only want the core Firebase package
